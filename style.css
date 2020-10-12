@@ -52,6 +52,7 @@ color: #fdcb46;
 	}
 	.menusPDG{
 		display:flex;
+		flex-direction: column;
 		margin: auto;
 	}
 }
@@ -59,21 +60,21 @@ color: #fdcb46;
 /*specifique aux Ipads portrait et paysage*/
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 	#bloc_page{
-		width: 750px;
+		width: 800px;
 	}
 }
 
 /*specifique aux desktops et laptops*/
 @media only screen and (min-width : 1224px){
 	#bloc_page{
-		width: 800px;
+		width: 900px;
 	}
 }
 
 /*specifique aux grands écrans*/
 @media only screen and (min-width : 1824px){
 	#bloc_page{
-		width: 900px;
+		width: 1000px;
 	}
 }
 
