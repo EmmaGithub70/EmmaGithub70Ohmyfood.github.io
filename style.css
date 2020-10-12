@@ -1,9 +1,4 @@
 /*Page d'accueil et autres pages*/
-#bloc_page{
-	width: 750px;
-	margin: auto;
-}
-
 header{
 	background-color: #579c87;
 	height: 4.8em;
@@ -48,9 +43,45 @@ color: #fdcb46;
     display: inline-block; 
     animation: wiggle 1s infinite; 
 } 
- 
+
 /*Media Queries*/
-@media all and (min-width: 769px){
+/*specifique aux smartphones portrait et paysage*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+	#bloc_page{
+		width:auto;
+	}
+	.menusPDG{
+		display:flex;
+		margin: auto;
+	}
+}
+
+/*specifique aux Ipads portrait et paysage*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	#bloc_page{
+		width: 750px;
+	}
+}
+
+/*specifique aux desktops et laptops*/
+@media only screen and (min-width : 1224px){
+	#bloc_page{
+		width: 800px;
+	}
+}
+
+/*specifique aux grands écrans*/
+@media only screen and (min-width : 1824px){
+	#bloc_page{
+		width: 900px;
+	}
+}
+
+@media all and (min-width: 768px){
+	#bloc_page{
+		margin: auto;
+	}
+
 	#menu1 h3, #menu2 h3, #menu3 h3, #menu4 h3{
 		width:470px;
 		margin: auto;
@@ -91,17 +122,13 @@ color: #fdcb46;
 		url("images/barredroitebottommenu3.png") no-repeat center right;
  	}
 
-#menu4 h3{
+	#menu4 h3{
 		background: url("images/barregauchemenu4.png") no-repeat center left,
 					url("images/barredroitemenu4.png") no-repeat center right;
 	}
 }
 
-@media all and (max-width: 768px){
-	#bloc_page{
-		width:auto;
-	}
-		
+@media all and (max-width: 768px){	
 	#menu1 h3, #menu2 h3, #menu3 h3, #menu4 h3{
 		width: 300px;
 		margin: auto;
@@ -197,15 +224,16 @@ color: #fdcb46;
 
 .titremenu2PDG{
 	background: #fff5fe;
-	height: 150px;
+	height: 180px;
 	width: 200px;
-	padding-top: 125px;
+	padding-top: 90px;
 	font-family: georgia, sans-serif;
-	margin-top: 1.5em;
+	margin-top: 1em;
 }
 
 .degradetitremenu2PDG{
-	font-size: 1.1em;
+	font-size: 0.8em;
+	font-weight: normal;
 	background: -webkit-linear-gradient(right, #8f5bfe, #e38913);
  	 -webkit-background-clip: text;
  	 -webkit-text-fill-color: transparent;
@@ -217,7 +245,7 @@ color: #fdcb46;
 
 .menudetitremenu2PDG{
 	color: #c77412;
-	font-size: 1.3em;
+	font-size: 0.9em;
 	font-weight: bold;
 }
 
