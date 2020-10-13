@@ -66,13 +66,34 @@ color: #fdcb46;
 	}
 }
 
+/*specifique aux écrans Ipads desktops laptops grand écrans*/
 @media all and (min-width: 768px){
 	#bloc_page{
 		margin: auto;
 	}
 
+	.menusPDG{
+		display:flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		width: 80%;
+		margin: auto;
+	}
+
+	#menu1, #menu2, #menu3, #menu4{
+	width: 80%;
+	}
+
+	.repas{
+		width: 75%;
+	}
+
+	.descriptif{
+		width: 520px;
+	}
+
 	#menu1 h3, #menu2 h3, #menu3 h3, #menu4 h3{
-		width:470px;
+		width: 500px;
 		margin: auto;
 	}
 
@@ -118,13 +139,25 @@ color: #fdcb46;
 }
 
 /*specifique aux smartphones portrait et paysage*/
-@media all and (max-width: 768px){	
+@media all and (max-width: 767px){	
 	#bloc_page{
 		width:auto;
 	}
 
 	.menusPDG{
 		margin: auto;
+	}
+
+	#menu1, #menu2, #menu3, #menu4{
+	width: 95%;
+	}
+
+	.repas{
+		width: 90%;
+	}
+
+	.descriptif{
+	width: 250px;
 	}
 
 	#menu1 h3, #menu2 h3, #menu3 h3, #menu4 h3{
@@ -186,14 +219,6 @@ color: #fdcb46;
 }
 
 /*Page d'accueil uniquement*/
-.menusPDG{
-	display:flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	width: 80%;
-	margin: auto;
-}
-
 .titremenu1PDG, .titremenu2PDG, .titremenu3PDG, .titremenu4PDG{
 	text-align: center;
 	box-shadow: 1px 1px 10px gray;
@@ -339,7 +364,6 @@ color: #fdcb46;
 
 /*Toutes les pages menu*/
 #menu1, #menu2, #menu3, #menu4{
-	width: 80%;
 	margin: auto;
 }
 
@@ -367,13 +391,8 @@ h2, h3{
 }
 
 .repas{
-	width: 75%;
 	display: flex;
 	margin: auto;
-}
-
-.descriptif{
-	width: 520px;
 }
 
 .tarif{ 
