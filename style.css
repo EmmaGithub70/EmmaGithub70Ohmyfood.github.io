@@ -67,7 +67,7 @@ color: #fdcb46;
 }
 
 /*specifique aux écrans Ipads desktops laptops grand écrans*/
-@media all and (min-width: 768px){
+@media only screen and (min-device-width : 768px){
 	#bloc_page{
 		margin: auto;
 	}
@@ -139,7 +139,7 @@ color: #fdcb46;
 }
 
 /*specifique aux smartphones portrait et paysage*/
-@media all and (max-width: 767px){	
+@media only screen and (max-device-width : 767px){	
 	#bloc_page{
 		width:auto;
 	}
