@@ -46,7 +46,7 @@ color: #fdcb46;
 
 /*Media Queries*/
 /*specifique aux Ipads portrait et paysage*/
-@media screen and (min-width : 768px) and (max-device-width : 1024px) {
+@media screen and (min-width : 768px) and (max-width : 1024px) {
 	#bloc_page{
 		width: 800px;
 	}
@@ -146,6 +146,8 @@ color: #fdcb46;
 
 	.menusPDG{
 		margin: auto;
+		display: flex;
+		flex-direction: column;
 	}
 
 	#menu1, #menu2, #menu3, #menu4{
