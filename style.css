@@ -100,12 +100,12 @@ color: #fdcb46;
  	}
 
 	#principalmenu2 h3{
-	 	background: url("images/barregauchemiddlemenu2.png") no-repeat center left,
+	 	background: url("images/barregauchemiddlemenu2.PNG") no-repeat center left,
 		url("images/barredroitemiddlemenu2.png") no-repeat center right;
  	}
 
 	#dessertmenu2 h3{
-	 	background: url("images/barregauchebottommenu2.png") no-repeat center left,
+	 	background: url("images/barregauchebottommenu2.PNG") no-repeat center left,
 		url("images/barredroitebottommenu2.png") no-repeat center right;
  	}
 
