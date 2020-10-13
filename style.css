@@ -45,19 +45,6 @@ color: #fdcb46;
 } 
 
 /*Media Queries*/
-/*specifique aux smartphones portrait et paysage*/
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
-	#bloc_page{
-		width:auto;
-	}
-
-	.menusPDG h2{
-		display:flex;
-		flex-direction: column;
-		margin: auto;
-	}
-}
-
 /*specifique aux Ipads portrait et paysage*/
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 	#bloc_page{
@@ -130,7 +117,16 @@ color: #fdcb46;
 	}
 }
 
+/*specifique aux smartphones portrait et paysage*/
 @media all and (max-width: 768px){	
+	#bloc_page{
+		width:auto;
+	}
+
+	.menusPDG{
+		margin: auto;
+	}
+
 	#menu1 h3, #menu2 h3, #menu3 h3, #menu4 h3{
 		width: 300px;
 		margin: auto;
