@@ -67,7 +67,7 @@ color: #fdcb46;
 	}
 
 	.descriptif{
-	width: 280px;
+	width: 290px;
 	}
 
 	#menu1 h3, #menu2 h3, #menu3 h3, #menu4 h3{
@@ -208,7 +208,7 @@ color: #fdcb46;
 		width: 800px;
 	}
 	footer{
-		width: auto;
+		width: inherit;
 	}
 }
 
