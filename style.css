@@ -203,13 +203,13 @@ color: #fdcb46;
 }
 
 /*specifique aux Ipads portrait et paysage*/
-@media screen and (min-width : 768px) and (max-width : 1024px) {
+@media screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
 	#bloc_page{
 		width: 800px;
 	}
 
 	footer{
-		width: 100%;
+		width: 90%;
 	}
 }
 
