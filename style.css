@@ -71,7 +71,7 @@ color: #fdcb46;
 	}
 
 	#menu1 h3, #menu2 h3, #menu3 h3, #menu4 h3{
-		width: 280px;
+		width: 290px;
 		margin: auto;
 	}
 		
@@ -207,8 +207,9 @@ color: #fdcb46;
 	#bloc_page{
 		width: 800px;
 	}
+
 	footer{
-		width: 800px;
+		width: 100%;
 	}
 }
 
