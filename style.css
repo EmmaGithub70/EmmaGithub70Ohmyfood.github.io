@@ -24,6 +24,7 @@ footer{
 	font-size: 1.2em;
 	color: #fdcb46;
 	padding: 0 0.5em 2.5em 0.5em;
+	margin right: 0.5em;
 }
 
 .legal a, .contact a{
@@ -122,10 +123,6 @@ color: #fdcb46;
 		background: url("images/barregauchemenu4Iphone.png") no-repeat center left,
 					url("images/barredroitemenu4Iphone.png") no-repeat center right;
 	}
-
-	footer{
-		width:90%;
-	}
 }
 
 
@@ -201,11 +198,6 @@ color: #fdcb46;
 		background: url("images/barregauchemenu4.png") no-repeat center left,
 					url("images/barredroitemenu4.png") no-repeat center right;
 	}
-	
-	footer{
-		width:90%;
-	}
-
 }
 
 
