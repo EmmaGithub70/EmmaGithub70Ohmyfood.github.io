@@ -201,6 +201,11 @@ color: #fdcb46;
 		background: url("images/barregauchemenu4.png") no-repeat center left,
 					url("images/barredroitemenu4.png") no-repeat center right;
 	}
+	
+	footer{
+		width:90%;
+	}
+
 }
 
 
