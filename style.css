@@ -122,6 +122,10 @@ color: #fdcb46;
 		background: url("images/barregauchemenu4Iphone.png") no-repeat center left,
 					url("images/barredroitemenu4Iphone.png") no-repeat center right;
 	}
+
+	footer{
+		width: 90%;
+	}
 }
 
 
