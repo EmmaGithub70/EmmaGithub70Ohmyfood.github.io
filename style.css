@@ -27,8 +27,8 @@ footer{
 }
 
 .legal a, .contact a{
-text-decoration: none;
-color: #fdcb46;
+	text-decoration: none;
+	color: #fdcb46;
 }
 
 @keyframes wiggle { 
@@ -59,7 +59,7 @@ color: #fdcb46;
 	}
 
 	#menu1, #menu2, #menu3, #menu4{
-	width: 95%;
+		width: 95%;
 	}
 
 	.repas{
@@ -67,7 +67,7 @@ color: #fdcb46;
 	}
 
 	.descriptif{
-	width: 290px;
+		width: 290px;
 	}
 
 	#menu1 h3, #menu2 h3, #menu3 h3, #menu4 h3{
@@ -144,7 +144,7 @@ color: #fdcb46;
 	}
 
 	#menu1, #menu2, #menu3, #menu4{
-	width: 80%;
+		width: 80%;
 	}
 
 	.repas{
@@ -339,25 +339,25 @@ color: #fdcb46;
 }
 
 .prochainement:after {
-  overflow: hidden;
-  display: inline-block;
-  vertical-align: bottom;
-  -webkit-animation: ellipsis steps(4,end) 900ms infinite;      
-  animation: ellipsis steps(4,end) 900ms infinite;
-  content: "\2026"; /* ascii code for the ellipsis character */
-  width: 0px;
+  	overflow: hidden;
+ 	display: inline-block;
+  	vertical-align: bottom;
+  	-webkit-animation: ellipsis steps(4,end) 900ms infinite;      
+  	animation: ellipsis steps(4,end) 900ms infinite;
+  	content: "\2026"; /* ascii code for the ellipsis character */
+ 	 width: 0px;
 }
 
 @keyframes ellipsis {
-  to {
-    width: 1.25em;    
-  }
+  	to {
+    	width: 1.25em;    
+  	}
 }
 
 @-webkit-keyframes ellipsis {
-  to {
-    width: 1.25em;    
-  }
+  	to {
+    	width: 1.25em;    
+  	}
 }
 
 /*Toutes les pages menu*/
@@ -394,14 +394,14 @@ h2, h3{
 }
 
 .tarif{ 
-width: 50px;
-text-align: right;
-font-weight: bold;
+	width: 50px;
+	text-align: right;
+	font-weight: bold;
 }
 
 table{ 
-padding-bottom: 1.5rem;
-padding-top: 1rem; 
+	padding-bottom: 1.5rem;
+	padding-top: 1rem; 
 }
 
 td{
@@ -409,24 +409,24 @@ td{
 }
 
 .soulignementmenu, .soulignemententreemenu2, .soulignementprincipalmenu2, .soulignementdessertmenu2{
-  position: relative;
-  text-decoration: none;
-  padding: 10px 0;
+  	position: relative;
+  	text-decoration: none;
+  	padding: 10px 0;
 }
  
 .soulignementmenu:after, .soulignemententreemenu2:after, .soulignementprincipalmenu2:after, .soulignementdessertmenu2:after{
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 2px;
-  background-color: gray;
-  transition: width 500ms;
+  	content: '';
+  	position: absolute;
+  	left: 0;
+  	bottom: 0;
+  	width: 0;
+  	height: 2px;
+  	background-color: gray;
+  	transition: width 500ms;
 }
  
 .soulignementmenu:hover:after, .soulignemententreemenu2:hover:after, .soulignementprincipalmenu2:hover:after, .soulignementdessertmenu2:hover:after{
-  width: 100%;
+  	width: 100%;
 }
  
 /*Page Menu1*/
@@ -490,14 +490,14 @@ td{
 }
 
 .soulignementprincipalmenu2:after {
-  background-color: #a56799;
+  	background-color: #a56799;
 }
  
 #dessertmenu2{
 	color: #6e4ccc;
 }
 .soulignementdessertmenu2:after {
-  background-color: #6e4ccc;
+  	background-color: #6e4ccc;
 }
  
 /*Page Menu3*/
