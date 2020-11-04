@@ -40,7 +40,6 @@ footer{
 }  
  
 .legal, .contact { 
-    display: inline-block; 
     animation: wiggle 1s infinite; 
 } 
 
@@ -339,8 +338,7 @@ footer{
 }
 
 .prochainement:after {
- 	display: inline-block;
-  	animation: ellipsis steps(1,end) 1s infinite;
+  	animation: ellipsis 1s infinite;
   	content:" ";
 }
 
@@ -407,7 +405,7 @@ td{
   	padding: 10px 0;
 }
  
-.soulignementmenu:after, .soulignemententreemenu2:after, .soulignementprincipalmenu2:after, .soulignementdessertmenu2:after{
+.soulignementmenu::after, .soulignemententreemenu2::after, .soulignementprincipalmenu2::after, .soulignementdessertmenu2::after{
   	content: '';
   	position: absolute;
   	left: 0;
@@ -418,7 +416,7 @@ td{
   	transition: width 500ms;
 }
  
-.soulignementmenu:hover:after, .soulignemententreemenu2:hover:after, .soulignementprincipalmenu2:hover:after, .soulignementdessertmenu2:hover:after{
+.soulignementmenu:hover::after, .soulignemententreemenu2:hover::after, .soulignementprincipalmenu2:hover::after, .soulignementdessertmenu2:hover::after{
   	width: 100%;
 }
  
@@ -474,7 +472,7 @@ td{
 	color: #c67412;
 }
 
-.soulignemententreemenu2:after{
+.soulignemententreemenu2::after{
 	background-color: #c67412;
 }
 
@@ -482,14 +480,14 @@ td{
 	color: #a56799;
 }
 
-.soulignementprincipalmenu2:after {
+.soulignementprincipalmenu2::after {
   	background-color: #a56799;
 }
  
 #dessertmenu2{
 	color: #6e4ccc;
 }
-.soulignementdessertmenu2:after {
+.soulignementdessertmenu2::after {
   	background-color: #6e4ccc;
 }
  
